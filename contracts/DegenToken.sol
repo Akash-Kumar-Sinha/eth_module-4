@@ -5,7 +5,7 @@ import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 contract DegenToken is ERC20 {
-    constructor() ERC20("Degen", "DGN") {
+    constructor() payable ERC20("Degen", "DGN") {
     }
 
     function mint(address account, uint256 amount) external  returns (bool) {

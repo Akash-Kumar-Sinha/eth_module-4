@@ -1,41 +1,57 @@
 # Project Title
 
-Simple overview of use/purpose.
+A simple ERC20 token with functionalities for minting, transferring, redeeming, checking balance, and burning tokens.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The Deben Token (DBN) is an ERC20 token designed to facilitate various operations such as minting, transferring, redeeming, checking balances, and burning tokens. The token contract includes functionalities for an owner to mint and burn tokens, as well as for users to purchase tokens with Ether.
 
 ## Getting Started
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+- Clone the repository to your local machine
+
+- Navigate to the project directory
+
+```sh
+cd eth_module-4
+```
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
+After cloning the github, you have to run the following command
+
+1. Inside the project directory, in the terminal type:
+
+```sh
+npm i
 ```
 
+2. To compile
+
+```sh
+npx hardhat compile
+```
+
+3. To test run 
+
+```sh
+npx hardhat text
+```
 ## Help
 
-Any advise for common problems or issues.
+In case any problem or error occurs, make sure you have correct Solidity version and along with the directory. Check on the parameters.
+
 ```
-command to run if program contains helper info
+For additional help, you can even refer Remix documentation or Solidity documentation
 ```
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
+Name: Akash Kumar Sinha
+Contact info: akashkumarsinha529@gmail.com
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License. Check out the License.txt for details
